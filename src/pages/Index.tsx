@@ -172,14 +172,7 @@ export default function Index() {
                   </div>
                 </div>
 
-                <div className="space-y-4">
-                  <div className="flex items-center justify-center gap-3 p-4 bg-primary/10 rounded-xl border border-primary/30">
-                    <Icon name="CreditCard" className="text-primary" size={24} />
-                    <span className="font-mono text-lg">Карта: 2202 XXXX XXXX 1234</span>
-                  </div>
-                </div>
-
-                <div className="pt-6 border-t border-border">
+                <div className="pt-6">
                   <Button 
                     size="lg"
                     className="w-full bg-gradient-to-r from-accent via-secondary to-primary hover:opacity-90 transition-all text-xl font-bold py-8 rounded-2xl shadow-2xl shadow-accent/50"

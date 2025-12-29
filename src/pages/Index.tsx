@@ -33,7 +33,7 @@ export default function Index() {
           <p className="text-xl md:text-2xl text-muted-foreground mb-8 max-w-2xl mx-auto">
             Да-да, у меня свой бизнес! Правда, налоги съели всё... Помоги по братски закрыть долги перед государством! 🙏
           </p>
-          <div className="flex gap-4 justify-center">
+          <div className="flex gap-4 justify-center flex-wrap">
             <Button 
               size="lg" 
               className="bg-gradient-to-r from-primary to-secondary hover:opacity-90 transition-all text-lg px-8 py-6 rounded-2xl shadow-lg shadow-primary/50"
@@ -41,6 +41,15 @@ export default function Index() {
             >
               <Icon name="Heart" className="mr-2" size={20} />
               Помочь по братски
+            </Button>
+            <Button 
+              size="lg" 
+              variant="outline"
+              className="border-2 border-accent text-lg px-8 py-6 rounded-2xl hover:bg-accent/10 hover:border-accent"
+              onClick={() => document.getElementById('tips')?.scrollIntoView({ behavior: 'smooth' })}
+            >
+              <Icon name="Lightbulb" className="mr-2" size={20} />
+              Советы бомжа
             </Button>
             <Button 
               size="lg" 

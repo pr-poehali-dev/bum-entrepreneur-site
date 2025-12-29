@@ -13,6 +13,7 @@ export default function Index() {
           <div className="flex gap-6">
             <a href="#home" className="text-foreground/80 hover:text-primary transition-colors">Главная</a>
             <a href="#story" className="text-foreground/80 hover:text-primary transition-colors">История</a>
+            <a href="#tips" className="text-foreground/80 hover:text-primary transition-colors">Советы</a>
             <a href="#donate" className="text-foreground/80 hover:text-primary transition-colors">Донаты</a>
             <a href="#contact" className="text-foreground/80 hover:text-primary transition-colors">Контакты</a>
           </div>
@@ -189,6 +190,84 @@ export default function Index() {
                   💜 "Merci beaucoup за помощь! Вместе мы победим налоговую!" 💜
                 </p>
               </div>
+            </Card>
+          </div>
+        </div>
+      </section>
+
+      <section id="tips" className="py-20 px-4">
+        <div className="container mx-auto max-w-5xl">
+          <div className="text-center mb-12 animate-fade-in">
+            <h2 className="text-5xl font-black mb-4 bg-gradient-to-r from-accent via-secondary to-primary bg-clip-text text-transparent">
+              Советы Бомжа 🎓
+            </h2>
+            <p className="text-muted-foreground text-lg">Бесценный опыт от человека, который потерял 25 миллионов</p>
+          </div>
+
+          <div className="grid md:grid-cols-3 gap-6">
+            <Card className="p-6 bg-card/50 backdrop-blur-sm border-2 border-primary/30 hover:shadow-2xl hover:shadow-primary/30 transition-all group">
+              <div className="text-center">
+                <div className="text-6xl mb-4 group-hover:scale-110 transition-transform">🍾</div>
+                <h3 className="text-xl font-bold mb-3 text-primary">Совет #1</h3>
+                <p className="text-lg font-semibold mb-4">Как я заработал 1 000 ₽ на сборе бутылок</p>
+                <p className="text-sm text-muted-foreground mb-6">
+                  Забудьте про венчурных инвесторов! Настоящая бизнес-модель — это стеклотара. 
+                  За первую неделю я заработал больше, чем последний месяц работы с Китаем. 
+                  Секрет успеха: парки после выходных и дворы после корпоративов. 
+                  ROI — 1000%, себестоимость — 0 рублей!
+                </p>
+                <div className="flex items-center justify-center gap-2 text-xs text-accent">
+                  <Icon name="TrendingUp" size={16} />
+                  <span>Проверенная стратегия</span>
+                </div>
+              </div>
+            </Card>
+
+            <Card className="p-6 bg-card/50 backdrop-blur-sm border-2 border-secondary/30 hover:shadow-2xl hover:shadow-secondary/30 transition-all group">
+              <div className="text-center">
+                <div className="text-6xl mb-4 group-hover:scale-110 transition-transform">💡</div>
+                <h3 className="text-xl font-bold mb-3 text-secondary">Совет #2</h3>
+                <p className="text-lg font-semibold mb-4">Почему ваш стартап хуже моего?</p>
+                <p className="text-sm text-muted-foreground mb-6">
+                  Пока вы платите за коворкинг, аренду офиса и электричество — я уже оптимизировал все расходы! 
+                  Мой офис — скамейка в парке. Моё электричество — бесплатный WiFi в МакДональдсе. 
+                  Мои сотрудники — голуби (они работают за семечки). 
+                  Вот это я понимаю lean startup!
+                </p>
+                <div className="flex items-center justify-center gap-2 text-xs text-accent">
+                  <Icon name="Zap" size={16} />
+                  <span>Zero overhead costs</span>
+                </div>
+              </div>
+            </Card>
+
+            <Card className="p-6 bg-card/50 backdrop-blur-sm border-2 border-accent/30 hover:shadow-2xl hover:shadow-accent/30 transition-all group">
+              <div className="text-center">
+                <div className="text-6xl mb-4 group-hover:scale-110 transition-transform">🐕</div>
+                <h3 className="text-xl font-bold mb-3 text-accent">Совет #3</h3>
+                <p className="text-lg font-semibold mb-4">Инвесторы отказали. Теперь мой партнёр — бродячая собака</p>
+                <p className="text-sm text-muted-foreground mb-6">
+                  Искал соучредителя на VC.ru полгода — никого. Познакомился с Шариком возле помойки — 
+                  идеальный партнёр! Не спорит о доле в компании, не требует зарплату, 
+                  охраняет «офис» (картонную коробку). Единственный минус — 
+                  иногда путает документы с газетами. Зато лоялен на 100%!
+                </p>
+                <div className="flex items-center justify-center gap-2 text-xs text-accent">
+                  <Icon name="Heart" size={16} />
+                  <span>Настоящая дружба</span>
+                </div>
+              </div>
+            </Card>
+          </div>
+
+          <div className="mt-12 text-center">
+            <Card className="p-8 bg-gradient-to-r from-primary/10 via-secondary/10 to-accent/10 border-2 border-primary/20 inline-block">
+              <p className="text-lg font-semibold mb-2">📚 Бонус-совет от основателя:</p>
+              <p className="text-foreground/80 max-w-2xl">
+                Если налоговая требует 25 миллионов — не паникуйте! 
+                Просто создайте сайт и попросите помощи в интернете. 
+                Это мой текущий бизнес-план, и он работает лучше, чем все предыдущие! 😅
+              </p>
             </Card>
           </div>
         </div>

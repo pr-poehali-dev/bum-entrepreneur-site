@@ -174,35 +174,18 @@ export default function Index() {
                     <Icon name="CreditCard" className="text-primary" size={24} />
                     <span className="font-mono text-lg">Карта: 2202 XXXX XXXX 1234</span>
                   </div>
-                  <div className="flex items-center justify-center gap-3 p-4 bg-secondary/10 rounded-xl border border-secondary/30">
-                    <Icon name="Phone" className="text-secondary" size={24} />
-                    <span className="font-mono text-lg">Телефон: +7 (900) 123-45-67</span>
-                  </div>
                 </div>
 
                 <div className="pt-6 border-t border-border">
                   <Button 
                     size="lg"
-                    className="w-full bg-gradient-to-r from-accent via-secondary to-primary hover:opacity-90 transition-all text-xl font-bold py-8 rounded-2xl shadow-2xl shadow-accent/50 mb-6"
+                    className="w-full bg-gradient-to-r from-accent via-secondary to-primary hover:opacity-90 transition-all text-xl font-bold py-8 rounded-2xl shadow-2xl shadow-accent/50"
                     onClick={() => window.open('https://tips.tips/000466319', '_blank')}
                   >
                     <Icon name="HandHeart" className="mr-3" size={28} />
                     Поддержать Бомжа
                     <Icon name="ExternalLink" className="ml-3" size={20} />
                   </Button>
-                  
-                  <p className="text-sm text-muted-foreground mb-4">Или популярные суммы:</p>
-                  <div className="grid grid-cols-3 gap-4">
-                    <Button variant="outline" className="hover:bg-primary hover:text-primary-foreground transition-all">
-                      100 ₽
-                    </Button>
-                    <Button variant="outline" className="hover:bg-primary hover:text-primary-foreground transition-all">
-                      500 ₽
-                    </Button>
-                    <Button variant="outline" className="hover:bg-primary hover:text-primary-foreground transition-all">
-                      1000 ₽
-                    </Button>
-                  </div>
                 </div>
 
                 <p className="text-muted-foreground italic">

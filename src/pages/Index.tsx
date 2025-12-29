@@ -8,7 +8,7 @@ export default function Index() {
       <nav className="fixed top-0 left-0 right-0 z-50 bg-background/80 backdrop-blur-xl border-b border-border">
         <div className="container mx-auto px-4 py-4 flex justify-between items-center">
           <div className="text-2xl font-bold bg-gradient-to-r from-primary via-secondary to-accent bg-clip-text text-transparent">
-            💼 БизнесБомж
+            💼 ИП Нищебродov
           </div>
           <div className="flex gap-6">
             <a href="#home" className="text-foreground/80 hover:text-primary transition-colors">Главная</a>
@@ -256,7 +256,7 @@ export default function Index() {
       <footer className="py-12 px-4 border-t border-border bg-background">
         <div className="container mx-auto text-center">
           <div className="text-3xl font-bold mb-4 bg-gradient-to-r from-primary via-secondary to-accent bg-clip-text text-transparent">
-            💼 БизнесБомж
+            💼 ИП Нищебродov
           </div>
           <p className="text-muted-foreground mb-6">
             Не таксист, а настоящий предприниматель! Правда, немного в затруднительном положении... 😅
@@ -273,7 +273,7 @@ export default function Index() {
             </Button>
           </div>
           <p className="text-sm text-muted-foreground">
-            © 2024 БизнесБомж. Все права защищены (если налоговая не заберёт). Made with 💜 and desperation
+            © 2024 ИП Нищебродov. Все права защищены (если налоговая не заберёт). Made with 💜 and desperation
           </p>
         </div>
       </footer>

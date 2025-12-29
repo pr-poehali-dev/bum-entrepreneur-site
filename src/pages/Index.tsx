@@ -163,12 +163,12 @@ export default function Index() {
             <Card className="p-12 bg-gradient-to-br from-card to-muted border-2 border-primary/30 shadow-2xl shadow-primary/20">
               <div className="space-y-8">
                 <div className="flex justify-center">
-                  <div className="w-64 h-64 bg-white rounded-3xl p-6 shadow-xl flex items-center justify-center">
-                    <div className="text-center">
-                      <div className="text-6xl mb-4">📱</div>
-                      <p className="text-background font-bold text-lg">QR-код для доната</p>
-                      <p className="text-background/60 text-sm mt-2">Сканируй и помогай</p>
-                    </div>
+                  <div className="w-64 h-64 bg-white rounded-3xl p-4 shadow-xl flex items-center justify-center">
+                    <img 
+                      src="https://cdn.poehali.dev/files/Снимок экрана 2025-12-29 в 22.00.19.png" 
+                      alt="QR-код для доната"
+                      className="w-full h-full object-contain"
+                    />
                   </div>
                 </div>
 

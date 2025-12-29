@@ -181,7 +181,17 @@ export default function Index() {
                 </div>
 
                 <div className="pt-6 border-t border-border">
-                  <p className="text-sm text-muted-foreground mb-4">Популярные суммы:</p>
+                  <Button 
+                    size="lg"
+                    className="w-full bg-gradient-to-r from-accent via-secondary to-primary hover:opacity-90 transition-all text-xl font-bold py-8 rounded-2xl shadow-2xl shadow-accent/50 mb-6"
+                    onClick={() => window.open('https://tips.tips/000466319', '_blank')}
+                  >
+                    <Icon name="HandHeart" className="mr-3" size={28} />
+                    Поддержать Бомжа
+                    <Icon name="ExternalLink" className="ml-3" size={20} />
+                  </Button>
+                  
+                  <p className="text-sm text-muted-foreground mb-4">Или популярные суммы:</p>
                   <div className="grid grid-cols-3 gap-4">
                     <Button variant="outline" className="hover:bg-primary hover:text-primary-foreground transition-all">
                       100 ₽

@@ -26,10 +26,8 @@ export default function Index() {
           </div>
           <h1 className="text-6xl md:text-8xl font-black mb-6 leading-tight">
             <span className="bg-gradient-to-r from-primary via-secondary to-accent bg-clip-text text-transparent animate-gradient bg-[length:200%_auto]">
-              Не Таксист,
+              ИП Нищебродov
             </span>
-            <br />
-            <span className="text-foreground">А Бизнесмен!</span>
           </h1>
           <p className="text-xl md:text-2xl text-muted-foreground mb-8 max-w-2xl mx-auto">
             Да-да, у меня свой бизнес! Правда, налоги съели всё... Помоги по братски закрыть долги перед государством! 🙏

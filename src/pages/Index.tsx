@@ -271,63 +271,6 @@ export default function Index() {
         </div>
       </section>
 
-      <section id="contact" className="py-20 px-4 bg-muted/30">
-        <div className="container mx-auto max-w-2xl text-center">
-          <h2 className="text-5xl font-black mb-6 bg-gradient-to-r from-primary to-accent bg-clip-text text-transparent">
-            Связаться Со Мной 📞
-          </h2>
-          <p className="text-lg text-muted-foreground mb-12">
-            Есть вопросы? Хочешь узнать больше о моих бизнес-приключениях? Пиши!
-          </p>
-
-          <div className="grid gap-6">
-            <Card className="p-6 hover:shadow-lg hover:shadow-primary/20 transition-all border-l-4 border-primary bg-card/50 backdrop-blur-sm">
-              <div className="flex items-center gap-4">
-                <div className="w-12 h-12 bg-primary/20 rounded-full flex items-center justify-center">
-                  <Icon name="Mail" className="text-primary" size={24} />
-                </div>
-                <div className="text-left">
-                  <p className="text-sm text-muted-foreground">Email</p>
-                  <p className="text-lg font-semibold">biznes.bomzh@mail.ru</p>
-                </div>
-              </div>
-            </Card>
-
-            <Card className="p-6 hover:shadow-lg hover:shadow-secondary/20 transition-all border-l-4 border-secondary bg-card/50 backdrop-blur-sm">
-              <div className="flex items-center gap-4">
-                <div className="w-12 h-12 bg-secondary/20 rounded-full flex items-center justify-center">
-                  <Icon name="Send" className="text-secondary" size={24} />
-                </div>
-                <div className="text-left">
-                  <p className="text-sm text-muted-foreground">Telegram</p>
-                  <p className="text-lg font-semibold">@biznes_bomzh</p>
-                </div>
-              </div>
-            </Card>
-
-            <Card className="p-6 hover:shadow-lg hover:shadow-accent/20 transition-all border-l-4 border-accent bg-card/50 backdrop-blur-sm">
-              <div className="flex items-center gap-4">
-                <div className="w-12 h-12 bg-accent/20 rounded-full flex items-center justify-center">
-                  <Icon name="Instagram" className="text-accent" size={24} />
-                </div>
-                <div className="text-left">
-                  <p className="text-sm text-muted-foreground">Instagram</p>
-                  <p className="text-lg font-semibold">@biznes.bomzh.entrepreneur</p>
-                </div>
-              </div>
-            </Card>
-          </div>
-
-          <div className="mt-12 p-6 bg-gradient-to-r from-primary/10 via-secondary/10 to-accent/10 rounded-2xl border border-primary/20">
-            <p className="text-lg font-semibold mb-2">🎭 Важное уточнение:</p>
-            <p className="text-foreground/80">
-              Да, я правда предприниматель! Просто немного неудачливый. Но учусь на своих ошибках и двигаюсь дальше. 
-              А пока - буду благодарен любой помощи! 🙏
-            </p>
-          </div>
-        </div>
-      </section>
-
       <footer className="py-12 px-4 border-t border-border bg-background">
         <div className="container mx-auto text-center">
           <div className="text-3xl font-bold mb-4 bg-gradient-to-r from-primary via-secondary to-accent bg-clip-text text-transparent">
